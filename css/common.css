@@ -384,4 +384,10 @@ ul li {
         display: flex;
         flex-wrap: wrap;
     }
+    .presentation h1 {
+        font-size: 40px;
+    }
+    .presentation h2 {
+        font-size: 20px;
+    }
 }
