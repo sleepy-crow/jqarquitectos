@@ -256,7 +256,7 @@ p, ul, a {
 
 .cielo-button i {
     color: #ffff;
-    font-size: 2vw;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -344,4 +344,44 @@ ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 700px)
+{
+    .parallax-a, .parallax-b, .parallax-c, .parallax-d {
+        width: 100%;
+    }
+    .texto {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .obj, .mis, .pol, .mon, .prop, .vin, .cont {
+        height: 500px;
+    }
+    .texto {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .llamada img {
+        width: 35px;
+        height: 35px;
+    }
+    .correo img {
+        width: 35px;
+        height: 35px;
+    }
+    .ubicacion img {
+        width: 35px;
+        height: 35px;
+    }
+    .llamada, .correo, .ubicacion {
+        width: 100%;
+    }
+    .vin {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
