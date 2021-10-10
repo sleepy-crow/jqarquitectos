@@ -350,6 +350,7 @@ ul li {
 {
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         max-width: 100%;
+        background-attachment: scroll;
     }
     .texto {
         font-size: 20px;
