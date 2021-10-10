@@ -351,6 +351,18 @@ ul li {
 
 
 @supports (-webkit-touch-callout: none) {
+    .parallax-a {
+        background: url('../images/archs.png') center center no-repeat fixed;
+    }
+    .parallax-b {
+        background: url('../images/edif-des.png') center center no-repeat fixed;
+    }
+    .parallax-c {
+        background: url('../images/edifice-a.png') center center no-repeat fixed;
+    }
+    .parallax-d {
+        background: url('../images/edifice-b.png') center center no-repeat fixed;
+    }
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         background-size: auto 100vh;
     }    
