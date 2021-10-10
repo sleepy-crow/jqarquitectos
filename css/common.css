@@ -350,7 +350,6 @@ ul li {
 {
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         max-width: 100%;
-        background-attachment:scroll;
     }
     .texto {
         font-size: 20px;
@@ -361,7 +360,6 @@ ul li {
     .obj, .mis, .pol, .mon, .prop, .vin, .cont {
         height: 500px;
         max-width: 100%;
-        background-attachment:scroll;
     }
     .texto {
         display: flex;
