@@ -343,6 +343,8 @@ ul li {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
 }
 
@@ -350,7 +352,6 @@ ul li {
 {
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         max-width: 100%;
-        background-attachment: scroll;
     }
     .texto {
         font-size: 20px;
