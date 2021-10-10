@@ -350,6 +350,11 @@ ul li {
 {
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         max-width: 100%;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .texto {
         font-size: 20px;
