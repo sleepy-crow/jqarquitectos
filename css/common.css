@@ -36,7 +36,8 @@ p, ul, a {
 /* img filters */
 .vin img {
     height: 7vw;
-    min-width: 100px;
+    min-width: 300px;
+    min-height: 76px;
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
@@ -348,11 +349,17 @@ ul li {
     background-size: cover;
 }
 
+
+@supports (-webkit-touch-callout: none) {
+    .parallax-a, .parallax-b, .parallax-c, .parallax-d {
+        background-size: auto 100vh;
+    }    
+}
 @media (max-width: 800px)
 {
+    
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         max-width: 100%;
-        background-attachment: scroll;
     }
     .texto {
         font-size: 20px;
