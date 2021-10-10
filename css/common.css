@@ -357,7 +357,6 @@ ul li {
 }
 @media (max-width: 800px)
 {
-    
     .parallax-a, .parallax-b, .parallax-c, .parallax-d {
         width: 100%;
     }
@@ -397,6 +396,47 @@ ul li {
     }
     .presentation h1 {
         font-size: 40px;
+    }
+    .presentation h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .parallax-a, .parallax-b, .parallax-c, .parallax-d {
+        width: 100%;
+    }
+    .texto {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .obj, .mis, .pol, .mon, .prop, .vin, .cont {
+        height: 500px;
+        max-width: 100%;
+    }
+    .texto {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .llamada img {
+        width: 35px;
+        height: 35px;
+    }
+    .correo img {
+        width: 35px;
+        height: 35px;
+    }
+    .ubicacion img {
+        width: 35px;
+        height: 35px;
+    }
+    .llamada, .correo, .ubicacion {
+        width: 100%;
+    }
+    .presentation h1 {
+        font-size: 35px;
     }
     .presentation h2 {
         font-size: 20px;
