@@ -314,6 +314,8 @@ ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 }
 .parallax-b {
     background-image: url(../images/edif-des.png);
