@@ -37,7 +37,7 @@ p, ul, a {
 .vin img {
     height: 7vw;
     min-width: 300px;
-    min-height: 76px;
+    min-height: 65px;
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
